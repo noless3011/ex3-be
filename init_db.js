@@ -1,4 +1,4 @@
-const mongoose = require("mongoose");
+import mongoose from "mongoose";
 
 const MONGO_URI =
   "mongodb://botay301104_db_user:fYqr8w3ozhYpnSOz@ac-19ql9u9-shard-00-00.r1pbcde.mongodb.net:27017,ac-19ql9u9-shard-00-01.r1pbcde.mongodb.net:27017,ac-19ql9u9-shard-00-02.r1pbcde.mongodb.net:27017/?ssl=true&replicaSet=atlas-wmufq5-shard-0&authSource=admin&appName=lopweb";

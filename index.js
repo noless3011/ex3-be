@@ -1,5 +1,6 @@
 import express, { json } from "express";
-import { connect, connection, Schema, model } from "mongoose";
+import mongoose from "mongoose";
+const { connect, connection, Schema, model } = mongoose;
 import cors from "cors";
 
 const app = express();
